@@ -3,8 +3,7 @@ Run backend server:
 go to backend-cardapp in vscode and rename .env.template to
  .env
 
-put your own values for the enviroment variables in the .env
-file
+put your own values on POSTGRES_USER, POSTGRES_PASSWORD and POSTGRES_DB variables on the docker-compose.yml file
 
 go to aplication.properties file in shoppingcart-backend/src/main/resources/ and change the datasource url, username and password to match the one that is created by docker compose.
 
