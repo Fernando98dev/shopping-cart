@@ -1,7 +1,6 @@
 Run backend server:
 
-go to backend-cardapp in vscode and rename .env.template to
- .env
+go to backend-cardapp in vscode and: 
 
 put your own values on POSTGRES_USER, POSTGRES_PASSWORD and POSTGRES_DB variables on the docker-compose.yml file
 
